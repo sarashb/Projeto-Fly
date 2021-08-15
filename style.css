@@ -1,3 +1,8 @@
+* {
+    --lilac: #beaee2;
+    --light-pink: #f7dbf0;
+}
+
 header {
     background: #BC9E82;
     padding: 20px 0;
@@ -237,6 +242,17 @@ ul {
 
 .imagem-beneficios:hover {
 	opacity: 0.3;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background: var(--light-pink);
+}
+
+footer img {
+    width: 250px;
+    height: 250px;
 }
 
 
